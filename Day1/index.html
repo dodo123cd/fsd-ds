@@ -3,11 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day1</title>
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="style"
+    
 </head>
+
 <body>
-    <h1>
-        my first github page
-    </h1>
+    
+    <form> 
+        <h1>Payment Form</h1>
+        <h2>contact Information</h2>
+        <p>Name: <input type="text" name="name"><p/>
+            <p>Male: <input type="radio" Gender" id="" >female: <input type="radio" Gender" id="" ></p>
+            <p>Adress:<textarea name="adress" id="adress" cols="80" rows="6"></textarea></p>
+        <p>Name: <input type="text" name="name"><p/>
+        <p>Email: <input type="email" name="email" id="email"></p>
+        <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+        <h2> payment Informtion</h2>
+        <p> Card Type:
+            <select name="Card_Type" id="Card_Type">
+                <option value="">--select a Card_Type--</option> 
+                <option value="visa">visa</option>
+                <option value="master card">master card</option>
+                <option value="rupay">rupay</option>
+    
+            </select>
+        <p>
+            Card number <input type="number" name="Card_Number" id="Card_Number">
+            </p>
+            <p>
+                Expertion Date:<input type="date" name="exp_date" id="exp_date">
+            </p>
+             CVV <input type="password" name="CVV" id="CVV"></p>
+                <input type="sumbit" value="Pay Now" >
+            
+            
+</form>
+
 </body>
 </html>
